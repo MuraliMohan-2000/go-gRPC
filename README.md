@@ -15,15 +15,3 @@ This project is ideal for learning and testing how different gRPC patterns work 
 
 > **Note:** Ensure you have `protoc`, `protoc-gen-go`, and `protoc-gen-go-grpc` installed before running the examples.
 
-
-3. **Client Streaming RPC** – A stream of requests followed by a single response.
-4. **Bidirectional Streaming RPC** – Both client and server send a stream of messages.
-
-Each example is built using Go with protocol buffers for message definitions and gRPC for communication. The project is structured into separate client and server implementations for each type of RPC, along with `.proto` files under a `proto/` directory.
-
-This project is ideal for learning and testing how different gRPC patterns work in real-world Go applications.
-
----
-
-> **Note:** Ensure you have `protoc`, `protoc-gen-go`, and `protoc-gen-go-grpc` installed before running the examples.
-
